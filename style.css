@@ -1,0 +1,358 @@
+@charset "UTF-8";
+
+html{
+    font-size:16px;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+}  
+span,h1,h2,h3,h4,img,p{
+    display: block;
+    margin:0;
+}
+section{
+    width:960px;
+    margin:0 auto;
+    margin-top:80px;
+}
+a{
+    color:#333
+}
+div,span{
+    box-sizing: border-box;
+}
+a,p{
+    display: block;
+}
+
+
+
+
+#main{
+    height:95vh;
+    background-image: url(../img/visual.png);
+    width:100%;
+    object-fit: cover;
+    margin-top:0;
+    position: relative;
+}
+#main h1 img{
+    margin:0 auto;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+#main h2{
+    text-align: center;
+    font-size:18px;
+    color: #fff;
+}
+#main div{
+    padding:16px 24px 16px 24px;
+    border-radius:10px;
+    float:right;
+    background-color: #fcff00;
+    position: absolute;
+    bottom:16px;
+    right:0;
+    font-size: 18px;
+}
+
+.time{
+    padding:8px;
+}
+#time div{
+    display: flex;
+    width:100%;
+}
+#time span{
+    background-color:#2477ca;
+    color: #fff;
+    padding:8px;
+    width:35%;
+}
+#time div{
+    border:1px solid #2477ca;
+}
+
+.pointBack{
+    background-color: #deedf7;
+}
+#point{
+    padding:80px;
+}
+#point h3, #fee h3, #map h3, #access h3{
+    margin:0 auto;
+    color:#2477ca;
+    font-size: 23px;
+    text-align: center;
+    padding:8px;
+    margin-bottom:16px;
+}
+.do{
+    margin:0 auto;
+}
+
+.point{
+    padding:32px 40px;
+    background-color: #fff;
+}
+.point img{
+    margin:0 auto;
+    margin-bottom:16px;
+}
+.point h4{
+    font-size:18px;
+    background-color: #0098d7;
+    border-radius: 80px;
+    color:#fff;
+    text-align: center;
+    margin:0 auto;
+    width:200px;
+    padding: 8px;
+    margin-bottom:8px;
+}
+.night h4{
+    font-size:18px;
+    background-color: #deedf7;
+    border-radius: 80px;
+    color:#19528c;
+    text-align: center;
+    margin:0 auto;
+    width:200px;
+    padding: 8px;
+    margin-bottom:8px;
+}
+.point p{
+    text-align: center;
+}
+
+.sp{
+    display: none;
+}
+.night{
+    padding:24px;
+}
+.nightBack{
+    background-color:#19528c;
+}
+.night_box{
+    background-image: url(../img/nightBack.png);
+}#night{
+    margin-top:0;
+    padding:24px;
+    position:relative;
+}
+.n_right{
+    font-size: 18px;
+    margin-bottom:16px;
+}    
+.schedule{
+    font-size: 13px;
+}
+#night p{
+    color:#333;
+}
+.night_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:433px;
+    width:982px;
+}
+.night_content{
+    margin-left:16px;
+    width:50%;
+}
+.family{
+    position: absolute;
+    right:0;
+    bottom:-16px;
+    height:180px;
+}
+
+
+
+.fee1,.fee2{
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px;
+    width:660px;
+    padding:8px;
+    margin:0 auto;
+    margin-bottom:16px;
+}
+.feeBlock{
+    text-align: center;
+}
+.fee1 div, .fee2 div{
+    border-radius: 8px;
+    width:220px;
+}
+.man{
+    background-color: #2477ca;
+    color:#fff;
+    border-radius: 8px;
+    padding:8px;
+    margin:0 8px;
+}
+.nman{
+    background-color:#19528c;
+    color:#fff;
+    border-radius:8px;
+    padding:8px;
+    margin:0 8px;
+}
+.fee{
+    color:#333;
+}
+
+.mapBack{
+    background-color: #eaf2f2;
+}
+#map{
+    padding:80px 0;
+}
+.Back{
+    background-color: #fff;
+}
+.Back img{
+    margin:0 auto;
+}
+
+#access{
+    padding:24px;
+}
+.address{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.ad{
+    border-bottom:1px solid #333;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top:80px;
+}
+
+@media screen and (max-width:750px){
+    html{
+        font-size: 14px;
+    }
+    body,section{
+        max-width:750px;
+        width:100%;
+    }
+    .point h4, .night h4{
+        font-size: 16px;;
+    }
+    #main{
+        background-image: url(../img/visual.png);
+        height:100vh;
+    }
+
+    #time{
+        width:90%;
+        margin-top: 40px;
+    }
+    #time div{
+        display: block;
+        text-align: center;
+    }
+    #time span{
+        width:100%;
+        text-align: center;
+    }
+    #point, #night{
+        padding:0;
+    }
+    #point{
+        padding:80px 0 40px 0;
+    }
+    .point{
+        background-color: #deedf7;
+        padding:8px 16px;
+    }
+    .point p{
+        text-align: left;
+    }
+    .point img{
+        width:100%;
+    }
+
+    #night p{
+        color:#fff;
+    }
+    .night_box{
+        display:block;
+        background-image:none;
+        width:100%;
+    }
+    .pc{
+        display: none;
+    }
+    .sp{
+        display: block;
+        width:100%;
+        margin-bottom:16px;
+    }
+    .night_content{
+        width:100%;
+        margin:0;
+    }
+    .night_box{
+        height:auto;
+    }
+    .n_right{
+        display: none;
+        text-align: center;
+        background-color: #19528c;
+    }
+    .family{
+        display: none;
+    }
+
+    .fee1,.fee2{
+        width:100%;
+        bottom:-40px;
+        justify-content: center;
+        padding:0;
+    }
+    .man, .nman{
+        font-size: 12px;
+        margin:0 4px;
+    }
+    .Back{
+        width:90%;
+        margin:0 auto;
+    }
+    .Back img{
+        width:90%;
+    }
+    #access{
+        padding:8px;
+    }
+    #gosogle{
+        position: relative;
+        height:0;
+        padding-bottom:56.25%;
+        overflow: hidden;
+    }
+    #google iframe,
+    #google object,
+    #google embed{
+        width:100%;
+        height:100%;
+    }
+
+    footer{
+        margin-top: 40px;
+    }
+
+}
