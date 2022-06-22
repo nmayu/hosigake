@@ -32,7 +32,7 @@ a,p{
 
 #main{
     height:95vh;
-    background-image: url(../img/visual.png);
+    background-image: url(https://nmayu.github.io/hosigake/visual.png);
     width:100%;
     object-fit: cover;
     margin-top:0;
@@ -142,7 +142,7 @@ a,p{
     background-color:#19528c;
 }
 .night_box{
-    background-image: url(../img/nightBack.png);
+    background-image: url(https://nmayu.github.io/hosigake/nightBack.png);
 }#night{
     margin-top:0;
     padding:24px;
@@ -253,7 +253,7 @@ footer{
         font-size: 16px;;
     }
     #main{
-        background-image: url(../img/visual.png);
+        background-image: url(https://nmayu.github.io/hosigake/visual.png);
         height:100vh;
     }
 
