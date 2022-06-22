@@ -339,7 +339,10 @@ footer{
         width:90%;
     }
     #access{
-        padding:8px;
+        padding:80px 0;
+    }
+    #access p{
+        width:80%;
     }
     #gosogle{
         position: relative;
