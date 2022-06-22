@@ -320,7 +320,9 @@ footer{
     .family{
         display: none;
     }
-
+    .fee{
+        margin-bottom:16px;
+    }
     .fee1,.fee2{
         display:block;
         width:100%;
@@ -331,7 +333,7 @@ footer{
         margin:0 auto;
     }
     .man, .nman{
-        font-size: 12px;
+        font-size: 13px;
         margin:0 4px;
     }
     .Back{
