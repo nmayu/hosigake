@@ -322,10 +322,13 @@ footer{
     }
 
     .fee1,.fee2{
+        display:block;
         width:100%;
         bottom:-40px;
-        justify-content: center;
         padding:0;
+    }
+    .fee1 div, .fee2 div{
+        margin:0 auto;
     }
     .man, .nman{
         font-size: 12px;
